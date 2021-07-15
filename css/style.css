@@ -119,6 +119,10 @@ footer ul li a:hover {
     margin-top: 130px;
 }
 
+.mt-100 {
+    margin-top: 90px;
+}
+
 /* Bootstrap */
 .dropdown-toggle::after {
     margin-right: 7px;
