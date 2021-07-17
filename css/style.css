@@ -128,16 +128,38 @@ footer ul li a:hover {
 
 /* Bootstrap */
 .dropdown-toggle::after {
-    margin-right: 7px;
+    padding: 20px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #96A4D6;
 }
 
 
+.navbar-light .navbar-toggler {
+    z-index: 1000000 !important;
+    margin-left: 16px;
+}
 
 
 @media screen and (max-width: 480px) {
+    .navbar {
+        background-color: #fff !important;
+        z-index: 100000;
+    }
+    .navbar-nav {
+        padding: 16px;
+    }
+    .navbar .navbar-brand img {
+        width: 70%;
+        height: 70%;
+    }
+    .navbar .nav-item .nav-link, .nav-link.active{
+        color: #000 !important;
+        margin: 0 !important;
+    }
+    .navbar .nav-item .nav-link.active{
+        border-bottom: 3px solid #000 !important;
+    }
     section.hero h1 {
         margin-top: 150px !important;
         text-align: center;
