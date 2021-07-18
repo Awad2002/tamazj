@@ -24,6 +24,14 @@ body {
     color: #fff;
     border-bottom: 3px solid #fff;
 }
+.navbar .nav-item .nav-link.text-dark.active {
+    color: #fff;
+    border-bottom: 3px solid #000;
+}
+.navbar .nav-item .nav-link.text-dark:hover {
+    color: #fff;
+    border-bottom: 3px solid #000;
+}
 /* End Nav */
 
 /* Start Hero */
@@ -164,6 +172,9 @@ footer ul li a:hover {
         margin: 0 !important;
     }
     .navbar .nav-item .nav-link.active{
+        border-bottom: 3px solid #000 !important;
+    }
+    .navbar .nav-item .nav-link.text-dark.active{
         border-bottom: 3px solid #000 !important;
     }
     section.hero h1 {
