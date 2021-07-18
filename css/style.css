@@ -119,6 +119,27 @@ footer ul li a:hover {
 /* End Footer */
 
 /* Classes */
+.team-item {
+    position: relative;
+    transition: 0.2s;
+}
+
+.hover {
+    display: none; 
+    position: absolute; 
+    color: #fff; 
+    background: rgba(255, 255, 255, 0.76); 
+    border-radius: 8px;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}
+.team-item:hover .hover {
+    display: block; text-align: center;
+}
 .center {
     position: absolute;
     top: 50%;
@@ -151,6 +172,9 @@ footer ul li a:hover {
     margin: 0 20px;
 }
 
+.dropdown-toggle::after {
+    margin-right: 7px;
+}
 
 @media screen and (max-width: 480px) {
     .navbar {
