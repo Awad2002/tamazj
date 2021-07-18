@@ -135,9 +135,6 @@ footer ul li a:hover {
 }
 
 /* Bootstrap */
-.dropdown-toggle::after {
-    padding: 20px;
-}
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background-color: #96A4D6;
 }
